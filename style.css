@@ -189,11 +189,23 @@ footer {
 }
 .cart-details {
   display: block;
-
   cursor: pointer;
   position: relative;
 }
-
+.count-buy {
+  display: none;
+  width: 19px;
+  height: 19px;
+  color: white;
+  background: #f16d7f;
+  border-radius: 50%;
+  position: absolute;
+  text-align: center;
+  right: 12px;
+  top: 15px;
+  font-size: 12px;
+  line-height: 19px;
+}
 .button-account {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -859,6 +871,7 @@ nav ul li a:hover {
   line-height: 1.2;
   letter-spacing: 0.35px;
   color: #222222;
+  text-transform: uppercase;
 }
 
 .text-rating-block {
